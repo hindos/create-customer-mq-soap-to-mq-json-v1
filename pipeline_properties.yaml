@@ -11,11 +11,11 @@ integrationServer:
     policyproject:
       - DefaultPolicies
     keystore:
-      - tiger-bank-ace-server.kdb
-      - tiger-bank-ace-server.sth
-      - tiger-bank-ace-server-keystore.jks
+      - arab-bank-ace-server.kdb
+      - arab-bank-ace-server.sth
+      - arab-bank-ace-server-keystore.jks
     truststore:
-      - tiger-bank-ace-server-truststore.jks
+      - arab-bank-ace-server-truststore.jks
 mq:
   queueName: CREATE.CUSTOMER.Q.V1
   endPointPolicyFile: DefaultPolicies/CQM3.policyxml
