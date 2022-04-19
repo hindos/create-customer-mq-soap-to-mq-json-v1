@@ -1,0 +1,25 @@
+integrationServer:
+  applicationNames:
+    - MQSOAPTOMQJSON
+    - CustomerIDGenerator
+  releaseName: create-customer-mq-soap-to-json
+  configurations:
+    setdbparms:
+      - dbparms.txt
+    serverconf:
+      - serverconf.yaml
+    policyproject:
+      - DefaultPolicies
+    keystore:
+      - tiger-bank-ace-server.kdb
+      - tiger-bank-ace-server.sth
+      - tiger-bank-ace-server-keystore.jks
+    truststore:
+      - tiger-bank-ace-server-truststore.jks
+mq:
+  queueName: CREATE.CUSTOMER.Q.V1
+  endPointPolicyFile: DefaultPolicies/CQM3.policyxml
+  checkQueue: "yes"
+tracing: 
+  tracingNS: tracing
+  tracingEnabled: "true"

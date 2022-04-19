@@ -1,0 +1,22 @@
+
+
+Importing file: /Users/mohammed.miaibm.com/workspace/work/learning/ace/ace-mq-to-mongo/createcustomer.wsdl
+
+The WSDL import will proceed with bindings CustomerDetailsSOAP.
+Creating wsdl schema document for file:///Users/mohammed.miaibm.com/workspace/work/learning/ace/ace-mq-to-mongo/createcustomer.wsdl.
+Parsing wsdl binding {http://ibm.com/CustomerDetails/}CustomerDetailsSOAP.
+Parsing wsdl binding input CustomerDetails.
+Parsing wsdl binding output CustomerDetails.
+Processing doc style for operation CustomerDetails.
+Populating WSDL schema createcustomer.xsd.
+Creating file createcustomer.xsd in the workspace.
+Creating file createcustomer_InlineSchema1.xsd in the workspace.
+Copying source WSDL createcustomer.wsdl to createcustomer.wsdl.
+
+Elapsed time processing this message definition file: 0.194 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
