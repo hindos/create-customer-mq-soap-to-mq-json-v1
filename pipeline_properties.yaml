@@ -22,4 +22,4 @@ mq:
   checkQueue: "yes"
 tracing: 
   tracingNS: tracing
-  tracingEnabled: "true"
+  tracingEnabled: "false"
